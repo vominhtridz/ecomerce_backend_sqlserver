@@ -4,7 +4,6 @@ import Users from "./routes/Users.js"
 import Seller from './routes/Seller.js'
 import cors from "cors"
 import bodyparser from "body-parser"
-// import twilioClient from "./SMS/twilioClient.js"
 const PORT = 1000
 App.use(express.json())
 App.use(express.static('public'))
